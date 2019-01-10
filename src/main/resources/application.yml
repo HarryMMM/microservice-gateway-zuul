@@ -12,8 +12,8 @@ management:
   security:
     enabled: false
 zuul:
-  routes:
-    microservice-user: /u2/**
+#  routes:
+#    microservice-user: /u2/**
   ignored-services: microservice-eureka
 
 
