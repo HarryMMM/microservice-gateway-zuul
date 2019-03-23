@@ -15,5 +15,9 @@ zuul:
 #  routes:
 #    microservice-user: /u2/**
   ignored-services: microservice-eureka
+#  ribbon的饥饿加载，解决首次访问慢的问题
+  ribbon:
+    eager-load:
+      enabled: true
 
 
