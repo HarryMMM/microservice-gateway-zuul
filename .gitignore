@@ -23,11 +23,5 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-/target/surefire-reports/
-/target/maven-status/
-/target/generated-sources/
-/target/maven-archiver/
-/target/test-classes/
-/target/microservice-gateway-zuul-0.0.1-SNAPSHOT.jar.original
-/target/generated-test-sources/
-/target/classes/
+
+/target/
